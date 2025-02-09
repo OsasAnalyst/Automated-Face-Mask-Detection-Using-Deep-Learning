@@ -122,6 +122,8 @@ history = model.fit(X_train_scaled, Y_train, validation_split=0.1, epochs=10, ba
 loss, accuracy = model.evaluate(X_test_scaled, Y_test)
 print(f"Test Accuracy: {accuracy * 100:.2f}%")
 ```
+![Accuracy Cnn](https://github.com/user-attachments/assets/7b4c674f-b04c-429c-9f66-c5cf59088350)
+
 
 ### Performance Visualization
 #### Training & Validation Loss
